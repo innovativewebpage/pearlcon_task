@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.tagInput
+{
+	width:auto;
+	height:auto;
+	border:1px solid #eee;
+	padding:10px;
+	display:flex;
+}	
+
+.tagInput:focus-within
+{
+	border:1px solid red;
+}
+
+.tagInput input 
+{
+	background:transparent;
+	border:none;
+	outline:none;
+	width:100%;
+	color:white;
+
+}
+
+
+.tagInput button
+{
+
+	color:white;
+	background:#121212;
+	outline:none;
+	border:none;
+	margin:5px;
+}
+
+.Likes
+{
+	font-size:14px;
+	font-weight:bold;
+color:blue !important;
+padding:5px;
+	
+}	
